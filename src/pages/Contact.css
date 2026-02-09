@@ -1,0 +1,11 @@
+.contact {
+  padding: 80px 50px;
+  background: linear-gradient(90deg,#2c5364,#203a43);
+  color: white;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 18px;
+  margin: 8px 0;
+}

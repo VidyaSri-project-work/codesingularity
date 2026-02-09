@@ -1,0 +1,47 @@
+.users-page {
+  padding: 80px 50px;
+  text-align: center;
+  background: #f4f7fb;
+}
+
+.users-page h2 {
+  font-size: 36px;
+  color: #d400ff;
+  margin-bottom: 15px;
+}
+
+.users-page p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.user-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.user-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.user-card:hover {
+  transform: translateY(-8px);
+}
+
+.user-card h3 {
+  margin-bottom: 10px;
+  color: #d400ff;
+}
+
+.stars {
+  color: #ffd700;
+  margin-top: 8px;
+  font-size: 18px;
+}
