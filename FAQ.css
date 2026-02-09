@@ -1,0 +1,50 @@
+.faq {
+  padding: 80px 50px;
+  text-align: center;
+  background: #f9faff;
+}
+
+.faq h2 {
+  font-size: 36px;
+  color: #4e54c8;
+  margin-bottom: 40px;
+}
+
+/* Container for all boxes */
+.faq-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Each Q&A box */
+.faq-item {
+  background: white;
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.faq-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Question styling */
+.question {
+  color: #2c5364;
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+/* Answer styling */
+.answer {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}

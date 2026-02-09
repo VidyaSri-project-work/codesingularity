@@ -1,0 +1,81 @@
+.home {
+  text-align: center;
+  padding: 100px 50px 50px 50px;
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+}
+
+.hero-buttons button {
+  padding: 12px 28px;
+  margin: 0 12px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.get-started-btn {
+  background: #00ffe7;
+  color: #000;
+}
+
+.get-started-btn:hover {
+  background: #00d1b8;
+}
+
+.learn-more-btn {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.learn-more-btn:hover {
+  background: #00eaff;
+  color: #000;
+}
+
+/* Feature highlights section */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 60px;
+}
+
+.feature-card {
+  background: white;
+  color: #2c5364;
+  padding: 25px 20px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+}
+
+.feature-card h3 {
+  margin-bottom: 12px;
+  color: #00ffe7;
+}
+
+.feature-card p {
+  font-size: 16px;
+  line-height: 1.5;
+}
